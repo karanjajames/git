@@ -1,28 +1,35 @@
-<!doctype html>
- <html>
-     <head> 
-    <script> function sumOfNbr()
-    
-    {
+<!doctype html> 
+<html>
+     <head>
+        <script src="uber.js"></SCRIPT>
+        <style>
+
+            h2 {
+                padding-left: 150px;
+                text-align: center;
+                background: maroon;
+                color: aqua;
+            }
+        </style>
         
-        var nbr1, nbr2, sum, nbr0;
-        var nrb0=
-         if (nbr1 > 10);
- {
-      
-nb0=100;
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+       <script>
+function sumOfNbr()
+  { var D, P, C,  sum; 
+     D = Number(document.getElementById("D").value); 
+     P = Number(document.getElementById("P").value);
 
+  {
+
+  if (D>=10){
+
+     C=100;
+
+  }
 
 }
-        nbr1 = Number(document.getElementById("nbr1").value);    
-   
-     nbr2 = Number(document.getElementById("nbr2").value);
-
-
-
-
-}
-      
+   sum = P * C ; document.getElementById("sum").value = sum;
+    } 
 
 
 
@@ -32,14 +39,35 @@ nb0=100;
 
 
 
+       </script>
+        
+       
+<div class="col-md-6">
+    <h5>    DIST</h5>
+        <input id="D">
+           <h5> <B>NO OF PASS</B></h5>
+           <h5><input id="P"></h5>
+          <button onclick="sumOfNbr()">
+           <h5> <b>TOTAL TO PAY</b></h5>
+        </button>
+          
+    <h5> <input id="sum"></h5>
+   </body>
+        
+   <style>
 
-      sum = nbr2 * nbr0;
-       document.getElementById("sum").value = sum;
-        } </script> 
-        </head> 
-<body> <input id="nbr1"> +
-     <input id="nbr2">
-      <button onclick="sumOfNbr()">
-        Calculate the sum</button> = <input id="sum"> 
-    </body>
-     </html>
+    button{
+        padding: 5px;
+        text-decoration: #0d053f;
+background-color: rgb(77, 3, 3);
+
+    }
+   </style>
+
+
+    </div>
+    
+    
+
+           
+    </html>
